@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
-    color: white;
+    color: yellow;
   }
   
   .logo {
@@ -55,4 +55,3 @@
       display: block;
     }
   }
-  
