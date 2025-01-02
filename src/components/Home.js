@@ -1,19 +1,12 @@
 import React from "react";
+import MenuBar from "./MenuBar";
 
-const HomePage =()=> {
+const HomePage = () => {
   return (
     <div style={styles.container}>
       {/* Header Section */}
-      <header style={styles.header}>
-        <h1 style={styles.title}>Welcome to My React App</h1>
-        <nav>
-          <ul style={styles.navList}>
-            <li style={styles.navItem}><a href="#home" style={styles.link}>Home</a></li>
-            <li style={styles.navItem}><a href="#about" style={styles.link}>About</a></li>
-            <li style={styles.navItem}><a href="#contact" style={styles.link}>Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+      <MenuBar />
+
 
       {/* Main Content */}
       <main style={styles.main}>
